@@ -19,6 +19,10 @@ hide_style="""
     </style>
 """
 
+header ={
+    "authorization" : st.secrets["openai_api_key"],
+}
+
 # os.environ["HUGGINGFACEHUB_API_TOKEN"] = 'HUGGINGFACEHUB_API_TOKEN'
 
 def get_pdf_text(pdf_docs):
